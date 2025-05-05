@@ -1,7 +1,7 @@
-#Technology Used 
+# Technology Used 
 
-#Frontend - Reactjs, Tailwind CSS 
+## Frontend - Reactjs, Tailwind CSS 
 
-#Backend - NodeJS
+## Backend - NodeJS
 
-#Database - MySQL
+## Database - MySQL
