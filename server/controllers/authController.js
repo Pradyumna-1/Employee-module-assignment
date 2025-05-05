@@ -7,7 +7,7 @@ exports.login = async (req, res) => {
 
   if (email === 'admin@example.com' && password === 'admin123') {
     const token = jwt.sign({ id: 1 }, 'your-secret-key');
-    console.log("Login successful"); // Add this line
+    console.log("Login successful");
     return res.json({ token, message: "FORCED LOGIN SUCCESS" });
   }
   
