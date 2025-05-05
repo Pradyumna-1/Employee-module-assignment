@@ -4,11 +4,6 @@ const jwt = require('jsonwebtoken');
 exports.login = async (req, res) => {
   const { email, password } = req.body;
   
-  // 1. HARDCODE SUCCESS - REMOVE AFTER TESTING
-  // if (email === 'admin@example.com' && password === 'admin123') {
-  //   const token = jwt.sign({ id: 1 }, 'your-secret-key');
-  //   return res.json({ token, message: "FORCED LOGIN SUCCESS" });
-  // }
 
   if (email === 'admin@example.com' && password === 'admin123') {
     const token = jwt.sign({ id: 1 }, 'your-secret-key');
@@ -17,7 +12,7 @@ exports.login = async (req, res) => {
   }
   
 
-  // 2. Actual verification (will work after step 1)
+  //  Actual verification (will work after step 1)
   try {
     const admin = { 
       id: 1, 
