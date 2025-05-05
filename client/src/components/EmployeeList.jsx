@@ -79,7 +79,6 @@ const handleDelete = async (id) => {
                             <th className="px-6 py-3 text-left text-sm  text-zinc-800 tracking-wider">Name</th>
                             <th className="px-6 py-3 text-left text-sm  text-zinc-800 tracking-wider">Email</th>
                             <th className="px-6 py-3 text-left text-sm  text-zinc-800 tracking-wider">Role</th>
-                            {/* <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th> */}
                         </tr>
                     </thead>
                     <tbody className="bg-white divide-y divide-gray-200">
